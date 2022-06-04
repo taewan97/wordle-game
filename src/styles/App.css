@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Keyboard {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input_N {
+  background-color: #282c34;
+  font-size: 24px;
+  color: white;
+  height: 34px;
+  width: 34px;
+  padding: 5px;
+  margin: 3px;
+}
+.input_S {
+  background-color: green;
+  font-size: 24px;
+  color: white;
+  height: 34px;
+  width: 34px;
+  padding: 5px;
+  margin: 3px;
+}
+.input_O {
+  background-color: gray;
+  font-size: 24px;
+  color: white;
+  height: 34px;
+  width: 34px;
+  padding: 5px;
+  margin: 3px;
+}
+
+.button {
+  height: 40px;
+  width: 35px;
+  background-color: #6d7077;
+}
+.enter_delete {
+  height: 40px;
+  width: 60px;
+  background-color: #6d7077;
+}
+
+.test_input {
+  background-color: #282c34;
+  height: 0;
+  width: 0;
+  outline: none;
+  border: none;
+}
+
+.box {
+  background-color: #282c34;
+  font-size: 24px;
+  color: white;
+  height: 34px;
+  width: 34px;
+  padding: 5px;
+  margin: 3px;
+}
+
+.box_N {
+  background-color: #282c34;
+}
+.box_S {
+  background-color: green;
+}
+.box_B {
+  background-color: #ff9f40;
+}
+.box_O {
+  background-color: #6d7077;
+}
+
+.enter_button {
+  background-color: #282c34;
+  height: 0;
+  width: 0;
+  outline: none;
+  border: none;
+}
